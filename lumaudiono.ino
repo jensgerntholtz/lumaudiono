@@ -1,5 +1,5 @@
 #include <Adafruit_NeoPixel.h>
-// This corresponds to the data pin you've connexted your LEDs with
+// This corresponds to the data pin you've connected your LEDs with
 #define PIN 6
 #define LED_COUNT 600
 
