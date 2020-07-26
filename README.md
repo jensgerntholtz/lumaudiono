@@ -18,7 +18,7 @@ In [lumaudiono.ino](lumaudiono.ino)
 Set your LED amount and your data pin  
 Upload the lumaudiono.ino to your Arduino. It'll now be waiting for usb serial traffic.  
 
-In the poorly named (host_audio.py)[host_audio.py]
+In the poorly named [host_audio.py](host_audio.py)
 Set `AUDIO_INPUT_ID` to any active audio input id. If you don't know an id, be sure to run printSystemAudioInput.py and find an apropriate input device.
 
 Select your correct ARDUINO_PORT  
