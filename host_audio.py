@@ -29,7 +29,7 @@ for i in range(int(60*RATE/1024)): #go for a few seconds
     amount=int(50*peak/2**16)
 
     # Printing the result to monitor output
-    print(int(50*peak/2**16))
+    print(amount)
     ser.write(("% s" % amount).encode('utf-8'))
 
 stream.stop_stream()
