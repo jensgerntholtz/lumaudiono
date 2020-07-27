@@ -3,7 +3,7 @@
 #define PIN 6
 #define LED_COUNT 600
 
-Adafruit_NeoPixel strip = Adafruit_NeoPixel(136, PIN, NEO_GRB + NEO_KHZ800);
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(LED_COUNT, PIN, NEO_GRB + NEO_KHZ800);
 
 int incomingByte = 0;
 int currentByte = 0;
